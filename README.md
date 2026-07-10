@@ -88,7 +88,7 @@ La comunicación entre el Frontend y el Backend se realiza a través de una API 
 ## Decisiones Técnicas y Retos
 
 ### Implementación de Búsqueda
-Para lograr la búsqueda de texto sin levantar servidores costosos como OpenSearch, implementamos [Explica aquí tu solución, ej: un filtro en Lambda o DynamoDB Streams]. Esto mantuvo el costo bajo sin sacrificar la funcionalidad.
+Para lograr la búsqueda de texto sin levantar servidores costosos como OpenSearch, implementamos un filtro en DynamoDB. Esto mantuvo el costo bajo sin sacrificar la funcionalidad.
 
 ### Estrategia de Paginación
 En lugar de traer todas las tareas (que sería lento y costoso), implementamos paginación basada en cursor (`LastEvaluatedKey` de DynamoDB), lo que garantiza tiempos de respuesta constantes sin importar si el usuario tiene 10 o 10,000 tareas.
