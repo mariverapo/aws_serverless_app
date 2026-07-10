@@ -13,11 +13,11 @@ El enfoque principal es demostrar la eficiencia, escalabilidad y rentabilidad de
 
 Más allá de un CRUD básico, esta aplicación implementa patrones de diseño avanzados:
 
-- ** Autenticación Robusta:** Registro, Login y Recuperación de contraseña con Amazon Cognito (MFA opcional).
-- ** Búsqueda Full-Text:** Sistema de búsqueda inteligente para localizar tareas por título o descripción en tiempo real.
-- ** Paginación Eficiente:** Manejo de grandes volúmenes de datos cargando tareas por segmentos para optimizar la latencia y el consumo de red.
-- ** Clasificación por Prioridad:** Organización visual de tareas (Alta, Media, Baja) para gestión efectiva del tiempo.
-- ** Rendimiento Optimizado:** Uso de CloudFront como CDN para entregar la interfaz en milisegundos a nivel global.
+- **Autenticación Robusta:** Registro, Login y Recuperación de contraseña con Amazon Cognito (MFA opcional).
+- **Búsqueda Full-Text:** Sistema de búsqueda inteligente para localizar tareas por título o descripción en tiempo real.
+- **Paginación Eficiente:** Manejo de grandes volúmenes de datos cargando tareas por segmentos para optimizar la latencia y el consumo de red.
+- **Clasificación por Prioridad:** Organización visual de tareas (Alta, Media, Baja) para gestión efectiva del tiempo.
+- **Rendimiento Optimizado:** Uso de CloudFront como CDN para entregar la interfaz en milisegundos a nivel global.
 
 ## Galería
 
